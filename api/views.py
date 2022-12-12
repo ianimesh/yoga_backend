@@ -33,8 +33,8 @@ def generate_random_id():
 @csrf_exempt
 def get_random_transaction_id(request):
     if request.method == 'GET':
-        random_id = generate_random_id
-        return HttpResponse(random_id)
+        random_id = generate_random_id()
+        return HttpResponse('{"id":"'+random_id+'"}',status=200)
 
 @csrf_exempt
 def add_subscriber(request):
