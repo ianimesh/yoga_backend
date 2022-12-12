@@ -1,10 +1,15 @@
 ## Hosted backend details
+
 Backend hosted URL: https://yogabackend-production.up.railway.app/admin/login/?next=/admin/
+
 Backend admin credentials- 
+
 username - admin@yoga
+
 password - 1234
 
-Django Project
+
+# Django Project
 This project is a Django app that uses a SQLite database to store and manage information about Subscribers, Enrollments, and Batches.
 
 Database Structure
